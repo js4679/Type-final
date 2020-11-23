@@ -15,7 +15,16 @@ export function quadAnimation(){
 
    
 
-    quadTL.to("#gunk-g",{duration: 1, morphSVG:"#swan-s", x: 200, y: -250}, "s")
+    quadTL.from("#reek-r",{duration: 1, alpha: 0})
+        .from("#reek-e-2",{duration: 1, alpha: 0})
+        .from("#shit-i",{duration: 1, alpha: 0})
+        .from("#reek-e-1",{duration: 1, alpha: 0})
+        .from("#scum-s",{duration: 1, alpha: 0})
+        .from("#scum-m",{duration: 1, alpha: 0})
+        .from("#gunk-n",{duration: 1, alpha: 0})
+        .from("#reek-k",{duration: 1, alpha: 0})
+
+        .to("#gunk-g",{duration: 1, morphSVG:"#swan-s", x: 200, y: -250}, "s")
         .to("#gunk-u",{duration: 1, morphSVG:"#swan-w", x: 210, y: -250}, "w")
         .to("#gunk-n",{duration: 1, morphSVG:"#swan-a", x: 220, y: -250}, "a")
         .to("#gunk-k",{duration: 1, morphSVG:"#swan-n", x: 230, y: -250}, "n")

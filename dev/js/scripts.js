@@ -8,6 +8,6 @@ const mainTL = gsap.timeline();
 
 mainTL.add(backgroundAnimation(), "play")
         .add(swansAnimation())
-        .add(quadAnimation(),"play");
+        .add(quadAnimation(), "play");
     
 
