@@ -89,6 +89,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/quad.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/quad-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
 		"ft": 64,
@@ -266,6 +277,14 @@
 		"oF": 3,
 		"oS": 0,
 		"uL": 1
+		},
+	"/gsap-bonus.tgz": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/gsap-bonus.tgz",
+		"oF": 0
 		},
 	"/node_modules": {
 		"ft": 65536,

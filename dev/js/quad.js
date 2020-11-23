@@ -1,0 +1,35 @@
+import { gsap } from "gsap";
+
+import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
+
+gsap.registerPlugin(MorphSVGPlugin);
+
+MorphSVGPlugin.convertToPath("circle, rect, ellipse, line, polygon, polyline");
+
+// const morphTL = gsap.timeline();
+
+const quadTL = gsap.timeline();
+
+
+export function quadAnimation(){
+
+   
+
+    quadTL.to("#gunk-g",{duration: 2, morphSVG:"#swan-s", x: 200, y: -250}, "s")
+        .to("#gunk-u",{duration: 2, morphSVG:"#swan-w", x: 210, y: -250}, "w")
+        .to("#gunk-n",{duration: 2, morphSVG:"#swan-a", x: 220, y: -250}, "a")
+        .to("#gunk-k",{duration: 2, morphSVG:"#swan-n", x: 230, y: -250}, "n")
+        .to("#reek-r",{duration: 2, morphSVG:"#swan-s", x: 200, y: 330}, "s")
+        .to("#reek-e-1",{duration: 2, morphSVG:"#swan-w", x: 210, y: 330}, "w")
+        .to("#reek-e-2",{duration: 2, morphSVG:"#swan-a", x: 220, y: 330}, "a")
+        .to("#reek-k",{duration: 2, morphSVG:"#swan-n", x: 230, y: 330}, "n")
+        .to("#shit-s",{duration: 2, morphSVG:"#swan-s", x: 200, y: -200}, "s")
+        .to("#shit-h",{duration: 2, morphSVG:"#swan-w", x: 210, y: -200}, "w")
+        .to("#shit-i",{duration: 2, morphSVG:"#swan-a", x: 220, y: -200}, "a")
+        .to("#shit-t",{duration: 2, morphSVG:"#swan-n", x: 230, y: -200}, "n")
+        .to("#scum-s",{duration: 2, morphSVG:"#swan-s", x: 200, y: -200}, "s")
+        .to("#scum-c",{duration: 2, morphSVG:"#swan-w", x: 210, y: -200}, "w")
+        .to("#scum-u",{duration: 2, morphSVG:"#swan-a", x: 220, y: -200}, "a")
+        .to("#scum-m",{duration: 2, morphSVG:"#swan-n", x: 230, y: -200}, "n");
+    return quadTL;
+}
