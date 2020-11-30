@@ -38,5 +38,6 @@ export function quadAnimation(){
         .to("#scum-c",{duration: 1, morphSVG:"#swan-w", x: 220, y: -55}, "w")
         .to("#scum-u",{duration: 1, morphSVG:"#swan-a", x: 230, y: -55}, "a")
         .to("#scum-m",{duration: 1, morphSVG:"#swan-n", x: 240, y: -55}, "n");
+        
     return quadTL;
 }
