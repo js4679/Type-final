@@ -3,10 +3,13 @@ import {gsap} from "gsap";
 
 
 const backgroundTL =gsap.timeline();
-backgroundTL.to("#background", {duration:7, alpha: 0});
+
 
 
 export function backgroundAnimation(){
+
+    backgroundTL.to("#background", {duration:10, alpha: 0});
+
     return backgroundTL;
 }
 

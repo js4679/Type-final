@@ -78,7 +78,7 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/demo.js": {
+	"/dev/js/background.js": {
 		"bF": 4,
 		"ft": 64,
 		"ma": 0,
@@ -86,6 +86,17 @@
 		"oA": 1,
 		"oAP": "/deploy/js/demo-min.js",
 		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/lockup.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/lockup-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
