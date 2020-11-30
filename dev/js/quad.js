@@ -1,12 +1,10 @@
 import { gsap } from "gsap";
-
 import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 
 gsap.registerPlugin(MorphSVGPlugin);
 
 MorphSVGPlugin.convertToPath("circle, rect, ellipse, line, polygon, polyline");
 
-// const morphTL = gsap.timeline();
 
 const quadTL = gsap.timeline();
 

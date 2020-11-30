@@ -32,7 +32,7 @@ export function lockupAnimation(){
         .from("#for-f", {duration: letterSpeed, alpha: 0})
         .from("#for-o", {duration: letterSpeed, alpha: 0})
         .from("#for-r", {duration: letterSpeed, alpha: 0})
-        .from("#love-stroke", {duration: 1, drawSVG: "0%"})
+        .from("#love-stroke", {duration: 1, drawSVG: "-0%"})
         .from("#love-l", {duration: letterSpeed, alpha: 0}, "loveIn")
         .from("#love-o", {duration: letterSpeed, alpha: 0}, "loveIn")
         .from("#love-v", {duration: letterSpeed, alpha: 0}, "loveIn")
