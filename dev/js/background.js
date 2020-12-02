@@ -8,7 +8,7 @@ const backgroundTL =gsap.timeline();
 
 export function backgroundAnimation(){
 
-    backgroundTL.to("#background", {duration: 12, alpha: 0});
+    backgroundTL.to("#background", {duration: 20, alpha: 0});
 
     return backgroundTL;
 }
