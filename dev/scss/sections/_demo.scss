@@ -5,7 +5,7 @@
 #svg-demo{
 
     display: grid;
-    grid-template-columns: auto 100% auto;
+    grid-template-columns: auto 80% auto;
     grid-template-areas: ". svg .";
     
     >div{
